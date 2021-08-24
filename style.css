@@ -1,0 +1,217 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*===========================================
+Header section 
+ ========================================= */
+.header{
+    background-color: #3498db;
+}
+img{
+    max-width: 100%;
+}
+.logo{}
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    text-align: right;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+    margin-left: -4px;
+    border-right: 1px solid #38a3eb;
+    border-left: 1px solid #2d84be;
+    line-height: 70px;
+    
+}
+.menu li:first-child{
+    border-left: 0;
+}
+.menu li:last-child{
+    border-right: 0;
+}
+.menu li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background-color: #2980b9;
+    transition: .4s;
+}
+/*===========================================
+ banner section 
+ ========================================= */
+.banner{
+    background-image: url(./img/unnamed.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.banner-content{}
+.banner-content h2{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 35px;
+}
+.banner-content h1{
+    background-color: rgba(	52,	152, 219, .7);
+    color: #fff;
+    width: 550px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+/*===========================================
+ About section 
+ ========================================= */
+ .about{
+     background-color: #ddd;
+     padding: 80px 0;
+ }
+ .about-us{}
+ .about-us h2{
+     font-size: 35px;
+     font-weight: 800px;
+     margin-bottom: 20px;
+ }
+ .about-us p{
+     width: 50%;
+     margin: auto;
+     margin-bottom: 50px;
+ }
+
+.s-items{
+     padding: 20px;
+     /* border: 1px solid black; */
+     border-radius: 10px 0;
+     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, .6);
+     background-color: #fff;
+ }
+ .s-items span{
+     height: 60px;
+     width: 60px;
+     line-height: 60px;
+     border-radius: 20px 0;
+     background-color: #3498db;
+     display: inline-block;
+     color: #fff;
+     font-size: 35px;
+     margin-bottom: 20px;
+     transition: .4s;
+ }
+ .s-items span:hover{
+     border-radius: 0 20px;
+ }
+ .s-items h3{
+     font-size: 35px;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+ .s-items p{
+     font-size: 20px;
+ }
+ 
+
+/*==========================
+ content-section 
+========================== */
+ .content{
+     padding: 80px 0;
+ }
+ .content-left{
+     padding-right: 20px;
+ }
+ .content-left img{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+ }
+ .content-left p{
+     font-size: 20px;
+     text-align: justify;
+     line-height: 30px;
+}
+ .content-right{ 
+ }
+ .content-right h3{
+     font-size: 35px;
+     border-bottom: 1px solid #ddd;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+ }
+ .content-right ul{
+     list-style: none;
+     padding: 0;
+ }
+ .content-right ul li{
+     border: 1px solid #ddd;
+     padding: 10px;
+     margin-bottom: 10px;
+     font-size: 17px;
+     border-radius: 5px;
+ }
+ .content-right ul li a{}
+
+  /*==========================
+ contact-section
+ ========================== */
+.contact{
+    background-color: #f9f9f9;
+}
+.contact-title{}
+.contact-title h2{
+    font-size: 45px;
+}
+form label{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ /*==========================
+ footer-section
+ ========================== */
+ .footer-left{}
+ .footer-left p{
+     font-size: 20px;
+ }
+ .footer-right{}
+ .social{}
+ .social li{
+     display: inline-block;
+ }
+ .social li a{
+     color: #fff;
+     display: inline-block;
+     font-size: 20px;
+     padding: 0 10px;
+     height: 40px;
+     width: 40px;
+     line-height: 40px;
+     background-color: red;
+     margin-right: 10px;
+     border-radius: 10px 0;
+     transition: .4s;
+ }
+ .social li a:hover{
+     background-color: yellow;
+     color: black;
+     border-radius: 0 10px;
+ }
